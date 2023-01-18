@@ -1,1 +1,1 @@
-Projekti HTML / SCSS fale diturise te marre nga Bootcampi "Per Programera"
+Projekti HTML / SASS fale diturise te marre nga Bootcampi "Per Programera"
