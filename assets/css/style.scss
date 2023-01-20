@@ -3,6 +3,9 @@ $font : 'Roboto', sans-serif;
 $fsize : 20px;
 
 // stilizimi Desktop //
+*{
+    font-family:$font;
+}
 body {
    margin:0;
    padding: 0;
@@ -149,13 +152,53 @@ body {
   .gridblog .card h2,p {
     padding: 20px;
   }
+  // Fundi //
+.outsidediv {
+    text-align: center;
+    padding: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    color:#0474CC;
+    text-decoration: overline;
+    &:hover {
+        text-decoration-color:black;
+    }
+}
+  .team{
+    padding: 15px 0px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+    .ekipi img {
+        border-radius: 80%;
+        border: 8px solid #0474CC;
+        height:150px;
+        width:200px;
+        position:relative;
+        object-fit: fill;
+        &:hover {
+            border:8px solid black;
+        }
+    }
+    .ekipi span {
+        position: absolute;
+        padding: 15px;
+        align-items: center;
+        font-weight: bold;
+        
+        color:#0474CC;
+    }
+  }
   footer  {
     text-align: center;
     color: #0474CC;
     font-weight: bold;
-    padding: 5px;
-
+    margin:85px;
+    position:relative;
+    bottom: -85px;
   }
+
 
   //MOBILE Version //
 
@@ -312,6 +355,7 @@ body {
           .gridblog .card {
             background-color: #0474CC;
             color:white;    
+            
           }
           
           .gridblog .card  img {
@@ -328,6 +372,48 @@ body {
             text-align: left;
             align-items: center;
           }
+           // Fundi //
+.outsidediv {
+    text-align: center;
+    padding-top:50px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    color:#0474CC;
+    text-decoration: overline;
+    &:hover {
+        text-decoration-color:black;
+    }
+}
+  .team{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    .ekipi {
+        padding: 50px 0;
+    }
+    .ekipi img {
+        border-radius: 80%;
+        border: 8px solid #0474CC;
+        height:150px;
+        width:200px;
+        position:relative;
+        object-fit: fill;
+        &:hover {
+            border:8px solid black;
+        }
+    }
+    .ekipi span {
+        position: absolute;
+        padding: 15px;
+        align-items: center;
+        text-align: center;
+        font-weight: bold;
+        
+        color:#0474CC;
+    }
+  }
           // footer mobile
           footer span {
             text-align: center;
