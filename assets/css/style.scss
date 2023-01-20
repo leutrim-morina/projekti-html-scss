@@ -18,6 +18,9 @@ body {
     justify-content: space-around;
     font-size: $fsize;
     font-family: $font;
+    position:fixed;
+    width:100%;
+    z-index:2;
 
     #mobileonly {
         display:none;
@@ -218,7 +221,8 @@ body {
         justify-content: space-around;
         font-size: $fsize;
         font-family: $font;
-    
+        position:relative;
+
         #mobileonly {
             display:block;
             align-items: center;

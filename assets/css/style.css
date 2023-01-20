@@ -16,6 +16,9 @@ body {
   justify-content: space-around;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 }
 .navbar #mobileonly {
   display: none;
@@ -203,6 +206,7 @@ footer {
     justify-content: space-around;
     font-size: 20px;
     font-family: "Roboto", sans-serif;
+    position: relative;
   }
   .navbar #mobileonly {
     display: block;
